@@ -1,0 +1,128 @@
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fff0 100%);
+  color: #1a1a1a;
+  padding: 20px;
+  font-family: "Georgia", serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  border-bottom: 2px solid #60A679;
+  padding-bottom: 15px;
+}
+
+.title {
+  color: #60A679;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.clock-selector {
+  padding: 8px 12px;
+  border: 2px solid #60A679;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.logout-btn {
+  padding: 8px 16px;
+  background: #60A679;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.time-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.time-label {
+  color: #60A679;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Georgia", serif;
+}
+
+.time-slider {
+  flex: 1;
+  height: 8px;
+  background: #1a1a1a;
+  border-radius: 4px;
+  outline: none;
+  accent-color: #60A679;
+}
+
+.time-slider::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #60A679;
+  cursor: pointer;
+}
+
+.time-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #60A679;
+  cursor: pointer;
+  border: none;
+}
+
+.time-display {
+  color: #1a1a1a;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  min-width: 80px;
+  font-size: 1.1rem;
+}
+
+.reset-btn {
+  padding: 8px 16px;
+  background: #60A679;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 0 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f0f0f0;
+}
