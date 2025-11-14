@@ -11,7 +11,7 @@ import { AnalogClockComponent } from './clocks/analog-clock/analog-clock.compone
 import { DigitalClockComponent } from './clocks/digital-clock/digital-clock.component';
 import { BinaryClockComponent } from './clocks/binary-clock/binary-clock.component';
 import { CircularClockComponent } from './clocks/circular-clock/circular-clock.component';
-import { QamClockComponent } from './clocks/qam-clock/qam-clock.component';
+import { SpiralClockComponent } from './clocks/spiral-clock/spiral-clock.component';
 import { WaveClockComponent } from './clocks/wave-clock/wave-clock.component';
 import { FrequencyClockComponent } from './clocks/frequency-clock/frequency-clock.component';
 import { SonarClockComponent } from './clocks/sonar-clock/sonar-clock.component';
@@ -29,7 +29,7 @@ import { AmplitudeClockComponent } from './clocks/amplitude-clock/amplitude-cloc
     DigitalClockComponent,
     BinaryClockComponent,
     CircularClockComponent,
-    QamClockComponent,
+    SpiralClockComponent,
     WaveClockComponent,
     FrequencyClockComponent,
     SonarClockComponent,
@@ -72,7 +72,7 @@ import { AmplitudeClockComponent } from './clocks/amplitude-clock/amplitude-cloc
         <app-amplitude-clock *ngIf="selectedClock === 'amplitude'"></app-amplitude-clock>
         <app-frequency-clock *ngIf="selectedClock === 'frequency'"></app-frequency-clock>
         <app-sonar-clock *ngIf="selectedClock === 'sonar'"></app-sonar-clock>
-        <app-qam-clock *ngIf="selectedClock === 'qam'"></app-qam-clock>
+        <app-spiral-clock *ngIf="selectedClock === 'spiral'"></app-spiral-clock>
       </div>
     </div>
 
@@ -97,7 +97,7 @@ export class AppComponent implements OnInit, OnDestroy {
     { value: 'wave', label: 'Reloj de Ondas' },
     { value: 'amplitude', label: 'Reloj de Amplitud' },
     { value: 'frequency', label: 'Reloj de Frecuencia' },
-    { value: 'qam', label: 'Reloj QAM' },
+    { value: 'spiral', label: 'Reloj Espiral' },
     { value: 'sonar', label: 'Reloj de Sonar' } 
   ];
 

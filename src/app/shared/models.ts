@@ -18,5 +18,5 @@ export type ClockType =
   | 'frequency' 
   | 'sonar' 
   | 'amplitude'
-  | 'qam'
+  | 'spiral'
   | 'cube';
