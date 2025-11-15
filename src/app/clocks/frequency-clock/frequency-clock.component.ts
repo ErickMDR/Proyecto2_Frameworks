@@ -24,7 +24,7 @@ import { TimeService } from '../../time/time.service';
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 500px;
+      height: 480px;
     }
     .frequency-waves {
       display: flex;

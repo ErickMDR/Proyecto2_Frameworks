@@ -60,13 +60,11 @@ styles: [`
     font-family: 'Courier New', monospace;
     font-weight: bold;
     transition: all 0.3s ease;
-    animation: pulse 2s infinite;
     background: #ffffff;
   }
   .bit.active {
     background: #60A679;
     color: #1a1a1a;
-    box-shadow: 0 0 20px #60A679;
   }
 `]
 })
