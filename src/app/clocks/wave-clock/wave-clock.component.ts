@@ -94,7 +94,7 @@ export class WaveClockComponent implements OnInit, OnDestroy {
     let path = `M 0 ${yOffset}`;
     
     for (let x = -5; x <= 500; x += 5) {
-      const y = yOffset + Math.sin(x * frequency + phase * Math.PI * 2) * amplitude;
+      const y = yOffset + Math.sin(x * frequency + phase * Math.PI * 25) * amplitude;
       path += ` L ${x} ${y}`;
     }
     
