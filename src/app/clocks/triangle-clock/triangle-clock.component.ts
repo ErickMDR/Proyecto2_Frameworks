@@ -46,8 +46,8 @@ import { TimeService } from '../../time/time.service';
     }
     .triangle-container {
       position: relative;
-      width: 130px;
-      height: 180px;
+      width: 150px;
+      height: 200px;
       display: flex;
       align-items: flex-end;
       justify-content: center;
