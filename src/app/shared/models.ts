@@ -16,7 +16,7 @@ export type ClockType =
   | 'circular' 
   | 'wave' 
   | 'frequency' 
-  | 'sonar' 
+  | 'triangle' 
   | 'amplitude'
   | 'spiral'
   | 'cube';

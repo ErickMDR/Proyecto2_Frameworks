@@ -14,7 +14,7 @@ import { CircularClockComponent } from './clocks/circular-clock/circular-clock.c
 import { SpiralClockComponent } from './clocks/spiral-clock/spiral-clock.component';
 import { WaveClockComponent } from './clocks/wave-clock/wave-clock.component';
 import { FrequencyClockComponent } from './clocks/frequency-clock/frequency-clock.component';
-import { SonarClockComponent } from './clocks/sonar-clock/sonar-clock.component';
+import { TriangleClockComponent } from './clocks/triangle-clock/triangle-clock.component';
 import { CubeClockComponent } from './clocks/cube-clock/cube-clock.component';
 import { AmplitudeClockComponent } from './clocks/amplitude-clock/amplitude-clock.component';
 
@@ -32,7 +32,7 @@ import { AmplitudeClockComponent } from './clocks/amplitude-clock/amplitude-cloc
     SpiralClockComponent,
     WaveClockComponent,
     FrequencyClockComponent,
-    SonarClockComponent,
+    TriangleClockComponent,
     CubeClockComponent,
     AmplitudeClockComponent
   ],
@@ -71,7 +71,7 @@ import { AmplitudeClockComponent } from './clocks/amplitude-clock/amplitude-cloc
         <app-wave-clock *ngIf="selectedClock === 'wave'"></app-wave-clock>
         <app-amplitude-clock *ngIf="selectedClock === 'amplitude'"></app-amplitude-clock>
         <app-frequency-clock *ngIf="selectedClock === 'frequency'"></app-frequency-clock>
-        <app-sonar-clock *ngIf="selectedClock === 'sonar'"></app-sonar-clock>
+        <app-triangle-clock *ngIf="selectedClock === 'triangle'"></app-triangle-clock>
         <app-spiral-clock *ngIf="selectedClock === 'spiral'"></app-spiral-clock>
       </div>
     </div>
@@ -98,7 +98,7 @@ export class AppComponent implements OnInit, OnDestroy {
     { value: 'amplitude', label: 'Reloj de Amplitud' },
     { value: 'frequency', label: 'Reloj de Frecuencia' },
     { value: 'spiral', label: 'Reloj Espiral' },
-    { value: 'sonar', label: 'Reloj de Sonar' } 
+    { value: 'triangle', label: 'Reloj de Triángulo' } 
   ];
 
   constructor(
